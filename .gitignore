@@ -1,0 +1,9 @@
+
+.DS_Store
+osiris/.idea/dictionaries/husky.xml
+osiris/.idea/encodings.xml
+osiris/.idea/misc.xml
+osiris/.idea/modules.xml
+*.pyc
+osiris/.idea/osiris.iml
+osiris/.idea/workspace.xml
