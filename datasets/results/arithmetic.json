@@ -1,0 +1,25 @@
+{
+ "execution_paths": "6", 
+ "callstack": false, 
+ "reentrancy": false, 
+ "modulo": "\nOpcode: MOD\nInput: [Ia_store_0, Ia_store_1]\nOutput: [bvurem_i(Ia_store_0, Ia_store_1)]", 
+ "division": "\nOpcode: DIV\nInput: [Ia_store_0, Ia_store_1]\nOutput: [bvudiv_i(Ia_store_0, Ia_store_1)]", 
+ "execution_time": "7.75313687325", 
+ "vul": {
+  "0x155": "mul", 
+  "0x187": "div", 
+  "0x123": "mod", 
+  "0x13c": "add", 
+  "0x16e": "sub"
+ }, 
+ "signedness": false, 
+ "evm_code_coverage": "100.0", 
+ "underflow": "\nOpcode: SUB\nInput: [Ia_store_0, Ia_store_1]\nOutput: [Ia_store_0 +\n115792089237316195423570985008687907853269984665640564039457584007913129639935*\nIa_store_1]", 
+ "time_dependency": false, 
+ "assertion_failure": false, 
+ "timeout": false, 
+ "dead_code": [], 
+ "overflow": "\nOpcode: ADD\nInput: [Ia_store_0, Ia_store_1]\nOutput: [Ia_store_0 + Ia_store_1]\nOpcode: MUL\nInput: [Ia_store_0, Ia_store_1]\nOutput: [Ia_store_0*Ia_store_1]", 
+ "money_concurrency": false, 
+ "truncation": false
+}
